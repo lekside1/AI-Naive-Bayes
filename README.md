@@ -10,8 +10,8 @@ Some libraries used:
 	pandas
 	csv
    	nltk
-    	numpy
-    	os
+	numpy
+	os
 
 How to run the program:
 =
