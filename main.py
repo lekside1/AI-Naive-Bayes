@@ -326,7 +326,7 @@ def main():
 
     # ---------------------------------------------------------------------------------------------------------------- #
     # Experiment 3: Infrequent Word Filtering (unfinished)
-    print('----------\nExperiment 3\n----------')
+    # print('----------\nExperiment 3\n----------')
 
     # remove freq = 1
     story_no1_freq_dict, ask_no1_freq_dict, show_no1_freq_dict, poll_no1_freq_dict \
@@ -339,9 +339,9 @@ def main():
                                'poll': poll_no1_freq_dict.get(w, 0) + delta} for w in vocabulary_2018}
     words_no1_freq_dict_df = pd.DataFrame.from_dict(words_no1_freq_dict, orient='index',
                                                     columns=['story', 'ask_hn', 'show_hn', 'poll'])
-    print("Removed freq = 1")
-    print(words_no1_freq_dict_df)
-    print(sep)
+    # print("Removed freq = 1")
+    # print(words_no1_freq_dict_df)
+    # print(sep)
 
     # remove freq <= 5
     story_no5_freq_dict, ask_no5_freq_dict, show_no5_freq_dict, poll_no5_freq_dict \
@@ -354,9 +354,9 @@ def main():
                                'poll': poll_no5_freq_dict.get(w, 0) + delta} for w in vocabulary_2018}
     words_no5_freq_dict_df = pd.DataFrame.from_dict(words_no5_freq_dict, orient='index',
                                                     columns=['story', 'ask_hn', 'show_hn', 'poll'])
-    print("Removed freq <=5")
-    print(words_no5_freq_dict_df)
-    print(sep)
+    # print("Removed freq <=5")
+    # print(words_no5_freq_dict_df)
+    # print(sep)
 
     # remove freq <= 10
     story_no10_freq_dict, ask_no10_freq_dict, show_no10_freq_dict, poll_no10_freq_dict \
@@ -369,9 +369,9 @@ def main():
                                'poll': poll_no10_freq_dict.get(w, 0) + delta} for w in vocabulary_2018}
     words_no10_freq_dict_df = pd.DataFrame.from_dict(words_no10_freq_dict, orient='index',
                                                      columns=['story', 'ask_hn', 'show_hn', 'poll'])
-    print("Removed freq <= 10")
-    print(words_no10_freq_dict_df)
-    print(sep)
+    # print("Removed freq <= 10")
+    # print(words_no10_freq_dict_df)
+    # print(sep)
 
     # remove freq <= 15
     story_no15_freq_dict, ask_no15_freq_dict, show_no15_freq_dict, poll_no15_freq_dict \
@@ -384,9 +384,9 @@ def main():
                                'poll': poll_no5_freq_dict.get(w, 0) + delta} for w in vocabulary_2018}
     words_no15_freq_dict_df = pd.DataFrame.from_dict(words_no15_freq_dict, orient='index',
                                                      columns=['story', 'ask_hn', 'show_hn', 'poll'])
-    print("Removed freq <= 15")
-    print(words_no15_freq_dict_df)
-    print(sep)
+    # print("Removed freq <= 15")
+    # print(words_no15_freq_dict_df)
+    # print(sep)
 
     # remove freq <= 20
     story_no20_freq_dict, ask_no20_freq_dict, show_no20_freq_dict, poll_no20_freq_dict \
@@ -399,9 +399,9 @@ def main():
                                'poll': poll_no20_freq_dict.get(w, 0) + delta} for w in vocabulary_2018}
     words_no20_freq_dict_df = pd.DataFrame.from_dict(words_no20_freq_dict, orient='index',
                                                      columns=['story', 'ask_hn', 'show_hn', 'poll'])
-    print("Removed freq <= 20")
-    print(words_no20_freq_dict_df)
-    print(sep)
+    # print("Removed freq <= 20")
+    # print(words_no20_freq_dict_df)
+    # print(sep)
 
 
 # end of main
