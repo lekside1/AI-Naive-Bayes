@@ -6,11 +6,12 @@ Dependencies
 Python3, Pip3 used
 
 Some libraries used:
-    - pandas
-    - csv
-    - nltk
-    - numpy
-    - os
+
+	pandas
+	csv
+   	nltk
+    	numpy
+    	os
 
 How to run the program:
 =
